@@ -52,18 +52,18 @@ const data = {
 document.getElementById("Squad").innerHTML = data.squadName
 document.getElementById("H").innerHTML = data.homeTown
 document.getElementById("D").innerHTML = data.formed
-data.members.forEach((item) => {
-    document.querySelector(".container-card").innerHTML += `<div class="card">
-            <h2>${item.name}</h2>
-            <ul>
-                <li>Secret identity : <span>${item.secretIdentity}</span></li>
-                <li>Age : <span>${item.age}</span></li>
-                <li>Superpowers :
-                    <ul>
-                        <li class="norm">${item.powers}</li>
-                    </ul>
-                </li>
-            </ul>
-        </div>`
-})
+// data.members.forEach((item) => {
+//     document.querySelector(".container-card").innerHTML += `<div class="card">
+//             <h2>${item.name}</h2>
+//             <ul>
+//                 <li>Secret identity : <span>${item.secretIdentity}</span></li>
+//                 <li>Age : <span>${item.age}</span></li>
+//                 <li>Superpowers :
+//                     <ul>
+//                         <li class="norm">${item.powers}</li>
+//                     </ul>
+//                 </li>
+//             </ul>
+//         </div>`
+// })
 
